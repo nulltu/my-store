@@ -1,4 +1,3 @@
-import './App.css';
 import Footer from './components/footer';
 import Home from './pages/Home';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
@@ -16,7 +15,6 @@ function App() {
           <Redirect to='/'/>
           </Switch>
           </BrowserRouter>
-
     <Footer />
     </div>
   );
