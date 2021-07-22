@@ -1,3 +1,8 @@
-.message-footer{
-    text-align: center;
+.fab{
+    color: gray;
+    margin: 1rem;
+}
+
+p{
+    font-size: .8rem;
 }

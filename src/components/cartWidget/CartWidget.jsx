@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import './cartWidget.css'
 
 function CartWidget() {
-
-    const iconCartWidget = <FontAwesomeIcon  color="gray" size="lg" icon={faShoppingCart} />
-
     return (
         <div>
-             <Link to="/">{iconCartWidget}</Link>
+             <Link to="/"><i class="fas fa-shopping-cart"></i></Link>
         </div>
     )
 }

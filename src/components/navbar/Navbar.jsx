@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { HOME, PRODUCTS } from '../../constants/routes';
 import CartWidget from '../cartWidget';
