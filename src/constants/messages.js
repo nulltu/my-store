@@ -1,0 +1,1 @@
+export const MESSAGE_ADD_PRODUCT_CART= "The product has been added to the cart"
