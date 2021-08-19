@@ -5,7 +5,7 @@ import './cartWidget.css'
 function CartWidget() {
     return (
         <div>
-             <Link to="/"><i class="fas fa-shopping-cart"></i></Link>
+             <Link to="/"><i className="fas fa-shopping-cart"></i></Link>
         </div>
     )
 }

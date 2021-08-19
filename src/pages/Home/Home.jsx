@@ -1,9 +1,10 @@
 import React from 'react';
+import ItemListContainer from '../../components/itemListContainer';
 
 function Home() {
     return (
         <div>
-          <p>Soy el home, si es que hubiera</p>
+          <ItemListContainer />
         </div>
     )
 }

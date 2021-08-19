@@ -8,17 +8,17 @@ function Footer() {
     let currentYear = new Date().getFullYear();
 
     return (
-        <footer class="bg-light row">
-            <div class="d-flex col-12 justify-content-center">
-                <Link to={PRODUCTS} class="nav-link active" aria-current="page" >Products</Link>
-                <Link to={HOME} class="nav-link active" aria-current="page" >Home</Link>
+        <footer className="bg-light row">
+            <div className="d-flex col-12 justify-content-center">
+                <Link to={PRODUCTS} className="nav-link active" aria-current="page" >Products</Link>
+                <Link to={HOME} className="nav-link active" aria-current="page" >Home</Link>
             </div>
-            <div class="d-flex col-12 justify-content-center">
-                <Link><i class="fab fa-facebook-f"></i></Link>
-                <Link><i class="fab fa-instagram"></i></Link>
-                <Link><i class="fab fa-tiktok"></i></Link>
+            <div className="d-flex col-12 justify-content-center">
+                <Link to="/"><i className="fab fa-facebook-f"></i></Link>
+                <Link to="/"><i className="fab fa-instagram"></i></Link>
+                <Link to="/"><i className="fab fa-tiktok"></i></Link>
             </div>
-            <div class="col-12 d-flex justify-content-center">
+            <div className="col-12 d-flex justify-content-center">
                 <p className="message-footer">All rights reserved for myStore - ©{currentYear}</p>
             </div>
         </footer>

@@ -1,9 +1,10 @@
 import React from 'react'
+import ItemList from '../ItemList'
 
 function ItemListContainer() {
     return (
         <div>
-            Aqui va toda la lista de items para mostrar
+            <ItemList />
         </div>
     )
 }
