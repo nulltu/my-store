@@ -14,7 +14,6 @@ function ItemList() {
     setCountries(countries);
   };
 
-  console.log(countries);
   return (
     <div className="row container-fluid">
       {countries.map((country) => 
