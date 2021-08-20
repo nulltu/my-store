@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HOME, PRODUCTS } from '../../constants/routes';
+import { HOME } from '../../constants/routes';
 import './footer.css';
 
 function Footer() {
@@ -10,7 +10,6 @@ function Footer() {
     return (
         <footer className="bg-light row">
             <div className="d-flex col-12 justify-content-center">
-                <Link to={PRODUCTS} className="nav-link active" aria-current="page" >Products</Link>
                 <Link to={HOME} className="nav-link active" aria-current="page" >Home</Link>
             </div>
             <div className="d-flex col-12 justify-content-center">

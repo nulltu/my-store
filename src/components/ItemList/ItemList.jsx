@@ -5,10 +5,10 @@ function ItemList() {
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
-    getData();
+    getCountries();
   }, []);
 
-  const getData = async () => {
+  const getCountries = async () => {
     const data = await fetch("https://restcountries.eu/rest/v2/region/americas");
     const countries = await data.json();
     setCountries(countries);
